@@ -1,0 +1,125 @@
+
+.wrapper {
+    width: 1180px;
+    margin: 0 auto;
+/*    font-family: Garamond;*/
+    font-family: Raleway, sans-serif;
+}
+
+header {
+    left: -25px;
+    width: 1199px;
+    position: relative;
+    padding-left: 5px;
+    background: -webkit-linear-gradient(-90deg, #1976D2, #114880); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #1976D2, #114880); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #1976D2, #114880); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #1976D2, #114880); /* Standard syntax */
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-top: 0;
+}
+
+article {
+    width: 85.5%;
+    float: left;
+    margin-top: -17px;
+    margin-bottom: 5px;
+    margin-right: 15.3px;
+}
+
+article p {
+    text-indent: 24px;
+}
+
+.aside p {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.aside hr {
+    margin-left: -40px;
+}
+
+.aside {
+    background: -webkit-linear-gradient(#1976D2, #114880); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1976D2, #114880); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1976D2, #114880); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1976D2, #114880); /* Standard syntax */
+    float: left;
+    width: 13.1%;
+    margin-top: -24px;
+    padding-top: -2px;
+    border-radius: 5px;
+
+}
+
+.footer {
+    clear: both;
+    background: #114880;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 0.75rem;
+    color: white;
+    position: relative;
+    padding-left: 5px;
+    left: -25px;
+    width: 1199px;
+}
+
+.footer img {
+    float: right;
+}
+
+/* работа с годами */
+.aside .menu li { 
+    list-style-type: none;
+    margin-left: -23px;
+}
+
+.aside .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+/* работа со вкладками меню. сдвиг влево */
+.aside .menu .parentmenu .dropdown li {
+    margin-left: -41px;
+}
+
+.aside .menu .parentmenu .dropdown li:hover {
+    margin-left: -41px;
+    background: #104376;
+}
+
+.aside .menu .parentmenu .dropdown li a {
+    padding-right: 97px;
+    font-size: 1.0em;
+}
+
+/* функционал меню */
+.dropdown {
+    display: block;
+    overflow: hidden; /* Прячем элементы меню */
+    max-height: 0; /* Сокращаем высоту */
+    transition:all 2s linear;
+    -moz-transition:all 2s linear;
+    -webkit-transition:all 2s linear;
+    -o-transition:all 2s linear;
+} 
+
+.menu .parentmenu:hover .dropdown {
+    display: block;
+    max-height: 1000px;
+    background: #060a0d;
+}
