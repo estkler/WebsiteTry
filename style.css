@@ -27,11 +27,10 @@ header h3 {
 }
 
 article {
-    width: 85.5%;
+    width: 79.5%;
     float: left;
     margin-top: -17px;
     margin-bottom: 5px;
-    margin-right: 15.3px;
 }
 
 article p {
@@ -53,12 +52,12 @@ article p {
     background: -o-linear-gradient(#1976D2, #114880); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#1976D2, #114880); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#1976D2, #114880); /* Standard syntax */
-    float: left;
-    width: 13.1%;
     margin-top: -24px;
     padding-top: -2px;
     border-radius: 5px;
-
+    position: fixed;
+    margin-left: 1000px;
+    width: 179px;
 }
 
 .footer {
@@ -98,7 +97,6 @@ article p {
 }
 
 .aside .menu .parentmenu .dropdown li:hover {
-    margin-left: -41px;
     background: #104376;
 }
 
